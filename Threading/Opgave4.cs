@@ -28,7 +28,7 @@ namespace Threading
                 char TempChar = Console.ReadKey().KeyChar;
                 if (TempChar != justAChar)
                 {
-                    Console.Read();
+                    Console.ReadLine();
                     justAChar = TempChar;
                 }
             }
