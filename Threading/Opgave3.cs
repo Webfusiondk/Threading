@@ -10,6 +10,7 @@ namespace Threading
     class Opgave3
     {
         Random r = new Random();
+        //Makes random number evey 2000MSC if we hit 3 warrnings thread dies
         public void JustAThread()
         {
             int warrnings = 0;

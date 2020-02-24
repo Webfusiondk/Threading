@@ -10,6 +10,7 @@ namespace Threading
     class Opgave4
     {
         public char justAChar = '*';
+        //Keeps printing JustAChar
         public void PrintChar()
         {
             while (true)
@@ -19,6 +20,7 @@ namespace Threading
                 Thread.Sleep(100);
             }
         }
+        //Listen for key input
         public void ReadKey()
         {
             while (true)
